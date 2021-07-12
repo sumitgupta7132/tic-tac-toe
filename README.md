@@ -1,4 +1,4 @@
-link : [tic-tac-toe](games-tictactoe.netlify.app)
+link : [tic-tac-toe](https://games-tictactoe.netlify.app/)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
