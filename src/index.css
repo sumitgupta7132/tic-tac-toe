@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #1f2833;
+}
+h1 {
+  color: #66fcf1;
+  font-size: 4rem;
+  text-align: center;
+  justify-content: center;
+  font-family: "Dancing Script", cursive;
+}
+#app {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  background-color: #66fcf1;
+}
+
+.square {
+  width: 110px;
+  height: 110px;
+
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+svg {
+  stroke-width: 10px;
+  fill: none;
+  stroke: #ff665c;
+  stroke-linecap: round;
+}
+
+.circle {
+  stroke: #ec088e;
+}
+
+.result {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  font-weight: bold;
+  background-color: rgba(204, 187, 187, 0.5);
+  border-radius: 10px;
+}
+
+.reset-btn {
+  padding: 10px;
+  font-size: 0.5em;
+  background-color: #66fcf1;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+h2 {
+  color: #66fcf1;
+  font-size: 1.5rem;
+  text-align: center;
+  justify-content: center;
+  font-family: "Dancing Script", cursive;
+}
+footer a {
+  color: #66fcf1;
+}
